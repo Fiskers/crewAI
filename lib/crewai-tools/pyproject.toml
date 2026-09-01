@@ -125,7 +125,7 @@ xml = [
     # (DNS-rebinding SSRF bypass), GHSA-fg7f-2386-8897 (ReDoS) and
     # GHSA-xh95-f55m-82fw (path traversal). Declared here, not only as a uv
     # override, so consumers installing crewai-tools[xml] get the fixed version.
-    "nltk>=3.10.0",
+    "nltk>=3.10.3",
 ]
 oxylabs = [
     "oxylabs==2.0.0"
